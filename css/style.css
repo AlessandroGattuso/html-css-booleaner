@@ -14,7 +14,8 @@ header{
   background-size: 28%;
 }
 
-main{
+main,
+footer{
   margin-left: 10px;
 }
 
@@ -83,3 +84,36 @@ table{
 .center{
   align-items: center;
 }
+
+footer{
+  margin-top: 30px;
+}
+
+.title-footer{
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.monitor-image,
+.graph-image{
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  height: 240px;
+  width: 240px;
+}
+
+.monitor-image{
+  background: url('../img/monitor.jpg');
+}
+
+.graph-image{
+  margin-top: 15px;
+  background: url('../img/graph.jpg');
+}
+
+.text-inside-image{
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
