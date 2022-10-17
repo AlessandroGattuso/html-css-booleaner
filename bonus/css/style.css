@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 18px;
+}
+
+header{
+  height: 90px;
+  background: rgba(36, 153, 255, 0.9) url('../../img/pattern.png');
+  background-size: 28%;
+}
+
+.logo-container,
+main,
+footer{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.logo{
+  margin-top: 27px;
+  height: 55px;
+}
+
+.title-container{
+  margin-top: 10px;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.title{
+  font-size: 30px;
+}
+
+.author-text-container{
+  font-size: 18px;
+  color: rgb(123, 123, 123)
+}
+
+.title-author{
+  color: rgba(36, 153, 255, 0.9)
+}
+
+.title-date,
+.img-description{
+  font-size: 13px;
+}
+
+.img-container{
+  margin-top: 18px;
+}
+
+.margin-top-20{
+  margin-top: 20px
+}
+
+.yellow-text{
+  background-color: yellow;
+}
+
+.list{
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table-header{
+  color: white;
+  background-color: rgb(0, 170, 255);
+}
+
+.bgcolor-bluelight{
+  background-color: lightblue;
+}
+
+.center{
+  align-items: center;
+}
+
+footer{
+  margin-top: 30px;
+}
+
+.title-footer{
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.monitor-image,
+.graph-image{
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  height: 240px;
+  width: 240px;
+}
+
+.monitor-image{
+  background: url('../../img/monitor.jpg');
+}
+
+.graph-image{
+  margin-top: 15px;
+  background: url('../../img/graph.jpg');
+}
+
+.text-inside-image{
+  padding-top: 15px;
+}
+
