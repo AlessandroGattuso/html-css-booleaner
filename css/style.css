@@ -5,22 +5,37 @@
 }
 header{
   height: 90px;
-  background: rgba(36, 153, 255, 0.9) repeat-x url('../img/pattern.png');
+  background: rgba(36, 153, 255, 0.9) url('../img/pattern.png');
   background-size: 28%;
 }
 
-.logo-container{
-  height: inherit;
-}
 .logo{
   margin-left: 9px;
-  margin-top: 35px;
+  margin-top: 27px;
   height: 55px;
 }
+
 .title-container{
   margin-top: 10px;
   margin-left: 8px;
   width: 95%;
   margin-top: 20px;
+}
+
+.title{
   font-size: 30px;
 }
+
+.author-text-container{
+  font-size: 18px;
+  color: rgb(123, 123, 123)
+}
+
+.title-author{
+  color: rgba(36, 153, 255, 0.9)
+}
+
+.title-date{
+  font-size: 13px;
+}
+
